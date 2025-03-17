@@ -1,0 +1,47 @@
+corpo {
+    margina: 0;
+    imbottitura: 0;
+    visualizzazione: flessione;
+    giustifica-contenuto: centro;
+    allinea-elementi: centro;
+    altezza: 100vh;
+    fondo-colore: nerone;
+}
+
+. . .sovrapposizione bandiera {
+    posizione: relativo;
+    larghezza: 600px; /* Regola in base all'immagine */
+    altezza: 400px; /* Regola in base all'immagine */
+ troppo pieno: nascosto;
+}
+
+. . .immagine di fondo {
+    posizione: assoluto;
+    larghezza: 100%;
+    altezza: 100%;
+ adattamento dell'oggetto: copricapo;
+    opacità: 0,7; /* Regola la trasparenza dell'immagine */
+}
+
+. . .colore {
+    posizione: assoluto;
+    larghezza: 33.3%;
+    altezza: 100%;
+ parte superiore: 0;
+    opacità:0,4; /* Regola la trasparenza dei colori */
+}
+
+. .verde {
+    fondo-colore: verde;
+    sinistra: 0;
+}
+
+. . .bianco {
+    fondo-colore: bianco;
+    sinistra: 33.3%;
+}
+
+. . .rosso {
+    fondo-colore: rosso;
+    sinistra: 66.6%;
+}
