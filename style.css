@@ -1,47 +1,47 @@
-corpo {
-    margina: 0;
-    imbottitura: 0;
-    visualizzazione: flessione;
-    giustifica-contenuto: centro;
-    allinea-elementi: centro;
-    altezza: 100vh;
-    fondo-colore: nerone;
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
 }
 
-. . .sovrapposizione bandiera {
-    posizione: relativo;
-    larghezza: 600px; /* Regola in base all'immagine */
-    altezza: 400px; /* Regola in base all'immagine */
- troppo pieno: nascosto;
+.flag-overlay {
+    position: relative;
+    width: 600px;
+    height: 400px; 
+    overflow: hidden;
 }
 
-. . .immagine di fondo {
-    posizione: assoluto;
-    larghezza: 100%;
-    altezza: 100%;
- adattamento dell'oggetto: copricapo;
-    opacità: 0,7; /* Regola la trasparenza dell'immagine */
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7; 
 }
 
-. . .colore {
-    posizione: assoluto;
-    larghezza: 33.3%;
-    altezza: 100%;
- parte superiore: 0;
-    opacità:0,4; /* Regola la trasparenza dei colori */
+.color {
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    top: 0;
+    opacity: 0.4;
 }
 
-. .verde {
-    fondo-colore: verde;
-    sinistra: 0;
+.green {
+    background-color: green;
+    left: 0;
 }
 
-. . .bianco {
-    fondo-colore: bianco;
-    sinistra: 33.3%;
+.white {
+    background-color: white;
+    left: 33.3%;
 }
 
-. . .rosso {
-    fondo-colore: rosso;
-    sinistra: 66.6%;
+.red {
+    background-color: red;
+    left: 66.6%;
 }
